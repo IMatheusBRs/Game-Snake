@@ -25,7 +25,7 @@ const updateFoodPosition = () => {
 
 const handleGameOver = () => {
     clearInterval(setIntervalId);
-    alert('Jogo acabou. Pressione Ok para jogar novamene');
+    alert('Jogo acabou. Pressione Ok para jogar novamente');
     location.reload();
 }
 
